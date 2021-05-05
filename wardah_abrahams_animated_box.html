@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Box</title>
+        <style>
+            html, body{
+                height:100%;
+            }
+            body{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                background:#333;
+                font-family:'Lato', sans-serif;
+            }
+            .box{
+                width:150px;
+                height:150px;
+                background-color:red;
+                transition:all 1s;
+            }
+            .box:hover{
+                width:300px;
+                background-color:orange;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+    </body>
+</html>
